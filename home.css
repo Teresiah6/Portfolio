@@ -1,0 +1,28 @@
+h1{
+    color:white;
+    font-size: 30px;
+}
+p{
+    color:black;
+    font-size: 17px;
+}
+.landing{
+    text-align: center;
+    margin-top: 60px;
+}
+#logo{
+    color: #fff;
+}
+body{
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    justify-content: center;
+}
+.mainbody{
+    display: inline-flexbox;
+    border: 5px solid whitesmoke;
+}
+footer{
+    text-align: center;
+    justify-content: baseline;
+    border-top: 2px solid #8360c3;
+}

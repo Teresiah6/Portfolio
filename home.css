@@ -18,8 +18,39 @@ body{
     justify-content: center;
 }
 .mainbody{
-    display: inline-flexbox;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    font-size: 30px;
+ 
+}
+.grid{
+    padding: 20px;
     border: 5px solid whitesmoke;
+    font-size: 30px;
+    text-align: center;
+}
+.exp{
+    font-size: small;
+    text-align: center;
+}
+.works{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+
+}
+.colabgrid{
+    padding: 20px;
+    border: 5px solid whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    align-items: center;    
+    
 }
 footer{
     text-align: center;
